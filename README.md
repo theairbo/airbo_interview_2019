@@ -1,24 +1,7 @@
-# README
+# Welcome to the Airbo interview 🎉
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The focus of the interview will be building a simple RESTful API and JS single-page application.
 
-Things you may want to cover:
+Please clone this repo, configure the database and add any gems you foresee needing, including your favorite test suite, so we can avoid spending shared time on configuration and database set up.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You will not be tested on configuration. For your convenience, React and jQuery have both been configured. Please feel free to use any, none or all of the JS frameworks configured in this project.
