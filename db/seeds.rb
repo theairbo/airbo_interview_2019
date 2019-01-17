@@ -60,5 +60,5 @@ User.create(Array.new(2000).map { |a| {name: Faker::Zelda.character, joined_book
 
 puts "Seeding user book collections"
 User.all.each do |user|
-  UsersBook.create(Array.new(rand(15) + 1).map { |a| {user: user, book: Book.find(rand(5000) + 1), amount: (rand(20) + 1)} })
+  UsersBook.create(Array.new(rand(15) + 1).map { |a| {user: user, book: Book.find(rand(4998) + 1), amount: (rand(20) + 1)} })
 end
